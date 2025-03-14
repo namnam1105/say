@@ -2,6 +2,18 @@
 
 this project is an `echo` alternative written in `rust` for fun.
 
+## Installation [[crates.io](https://crates.io/crates/say-rust)]
+** Available on [crates.io](https://crates.io/crates/say-rust)!!
+
+- Install with `cargo`
+```bash
+cargo install say-rust
+```
+- Use `say`
+```bash
+say "we love rust!!\n" -f
+```
+
 ## Compilation [Building]
 
 - Copy this `git` repository
@@ -17,7 +29,10 @@ cargo build --release
 ```bash
 cargo install --path .
 ```
-- Use say
+- Use `say`
+```bash
+say "we love rust!!\n" -f
+```
 
 
 ## Syntax
