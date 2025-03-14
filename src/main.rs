@@ -1,6 +1,5 @@
-pub mod unescape;
 use clap::Parser;
-use crate::unescape::unescape;
+use unescape::unescape;
 
 #[derive(Parser)]
 #[command(version = "1.0", author = "namnam", about = "Text echoing written in rust.")]

@@ -1,7 +1,10 @@
 [package]
 name = "say"
+description = "A simple command-line tool which is an alternative to echo."
+license = "AGPL-3.0"
 version = "1.0.0"
 edition = "2021"
 
 [dependencies]
 clap = { version = "4.5.32", features = ["derive"] }
+unescape = "0.1.0"
