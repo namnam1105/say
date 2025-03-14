@@ -2,7 +2,7 @@
 name = "say-rust"
 description = "A simple command-line tool which is an alternative to echo."
 license = "AGPL-3.0"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 
 [dependencies]
