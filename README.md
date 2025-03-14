@@ -4,6 +4,10 @@ this project is an `echo` alternative written in `rust` for fun.
 
 ## Compilation [Building]
 
+- Copy this `git` repository
+```bash
+git clone https://github.com/namnam1105/say
+```
 - Install cargo and rustc
 - To compile run:
 ```bash
