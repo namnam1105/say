@@ -22,7 +22,11 @@ cargo install --path .
 
 ## Syntax
 
-say [OPTIONS] TEXT
+
+```bash
+say [OPTIONS] "TEXT"
+```
+** Using quotes is not necessary but it helps reduce error with different shells.
 
 Options:
 - -f --format: enables formatting with ANSI escapes

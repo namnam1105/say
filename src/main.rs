@@ -12,7 +12,8 @@ struct Args {
     format: bool
 }
 
-
+/// Entry point, parses the arguments and prints out the text.
+/// I cant fix the error with shells parsing \n or anything else. So use quotes instead.
 fn main() {
     let args = Args::parse();
     let text = args.text.join(" ");
