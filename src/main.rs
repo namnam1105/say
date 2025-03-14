@@ -19,7 +19,7 @@ fn main() {
     if args.format {
         // Error handling
         if let Some(out) = unescape(&text) {
-            println!("{}", out);
+            println!("{}\x1b[0m", out); // Reset all escapes in case you would just make everything colorful.
         } else{
             eprintln!("\x1b[1m\x1b[31mFatal.\x1b[39m Error formatting text.\x1b[0m");
         }
